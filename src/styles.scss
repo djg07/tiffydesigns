@@ -1,0 +1,41 @@
+$font-stack-content: "Roboto", "Open sans", Helvetica;///
+$font-main: "Pinyon Script";
+$font-subheading: "Tangerine";
+//$primary-color: #FFF;
+
+body {
+	
+	h1 {
+		font-family: $font-main;
+		font-size:4.5em;
+	}
+
+	h2 {
+		font-family: $font-subheading;
+		font-weight: 700;
+		font-size:3em;
+	}
+
+	h3 {
+		font-family: $font-subheading;
+		font-weight: 400;
+		font-size:2.5em;
+	}
+
+	p {
+		font-family: $font-stack-content;
+		font-size: 1.2em;
+		line-height:125%;
+
+	}
+}
+
+#bg {
+block;
+		
+	// background-size: contain;
+	background-image: url("../images/introBG.jpg");
+
+}
+
+//test//test
