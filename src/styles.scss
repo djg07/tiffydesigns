@@ -4,6 +4,7 @@ $font-subheading: "Tangerine";
 //$primary-color: #FFF;
 
 body {
+	overflow-y:auto;
 	
 	h1 {
 		font-family: $font-main;
@@ -29,13 +30,35 @@ body {
 
 	}
 }
+.mask {
+	min-height:700px;
+		background-color: rgba(28,35,50,.8);
+		width:100%;
+		padding:0;
+		margin:0;
+		z-index:-1;
+	// min-height:500px;
+	// background-color: rgba(28,35,50,.8);
+	// z-index: 999;
+	// color: #FFF;
+	// padding:0;
+	// margin:0;
+	// width:100%;
+	#bgContainer {
+		    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: contain;
 
-#bg {
-block;
-		
-	// background-size: contain;
-	background-image: url("../images/introBG.jpg");
-
+		// background-image: url("../images/introBG.jpg");
+	}
 }
+	
 
-//test//test
+
+
