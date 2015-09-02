@@ -1,5 +1,6 @@
 body {
-  overflow-y: auto; }
+  overflow-y: auto;
+  margin: 0 0; }
   body h1 {
     font-family: "Pinyon Script";
     font-size: 4.5em; }
@@ -17,9 +18,43 @@ body {
     line-height: 125%; }
 
 #bgContainer {
+  position: relative;
   min-height: 100vh;
   min-width: 100%;
   background: url("../images/introBG.jpg") no-repeat center center fixed;
   background-size: cover; }
+
+#container {
+  position: absolute;
+  margin-left: 0;
+  margin-right: 0;
+  bottom: 10%;
+  background-color: white;
+  height: 8em;
+  width: 100%; }
+  #container .mainHeader {
+    font-family: "Pinyon Script";
+    font-size: 5em;
+    margin-left: 3%;
+    z-index: 1; }
+  #container .mainHeader-underline {
+    height: 1px;
+    border: 1px solid black;
+    margin-top: -30px;
+    opacity: .4;
+    z-index: -1; }
+  #container .nav {
+    margin-right: 0; }
+  #container .menu {
+    font-family: sans-serif;
+    margin-top: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .85em;
+    letter-spacing: 2px;
+    line-height: 3em; }
+    #container .menu .table {
+      width: 100%;
+      margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
