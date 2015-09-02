@@ -22,12 +22,23 @@ body {
   position: relative;
   min-height: 100vh;
   min-width: 100%;
-  background-color: grey; }
+  background-color: #FFE0E0; }
+  .container .header {
+    text-align: center; }
+  .container .headerRow {
+    height: 5em; }
+  .container .logo {
+    font-size: 3em;
+    font-family: "Pinyon Script";
+    letter-spacing: 2px;
+    color: white; }
   .container .gridRow {
-    line-height: 49vh; }
-    .container .gridRow .gridElement {
-      background-color: blue;
-      border: 1px solid white; }
+    line-height: 46vh; }
+    .container .gridRow .e1 {
+      background: url("../images/introBG.jpg") no-repeat center center fixed;
+      width: 100%;
+      background-size: 200px 200px;
+      background-size: contain; }
 
 #bgContainer {
   position: relative;
