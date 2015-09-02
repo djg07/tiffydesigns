@@ -3,6 +3,7 @@ grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-sass');
+grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.initConfig({
     jshint: {
@@ -13,16 +14,16 @@ grunt.loadNpmTasks('grunt-contrib-sass');
         }
       }
     },
-    // uglify: {
-    //     my_target: {
-    //       options: {
-    //         sourceMap: true
-    //       },
-    //       files: {
-    //         'dest/minified.js': ['<%= jshint.files %>']
-    //       }
-    //     }
-    //   },
+    uglify: {
+        my_target: {
+          options: {
+            sourceMap: true
+          },
+          files: {
+            'dest/minified.js': ['<%= jshint.files %>']
+          }
+        }
+      },
     sass: {
       dist: {
         files: {
@@ -45,5 +46,6 @@ grunt.loadNpmTasks('grunt-contrib-sass');
 
   
   grunt.registerTask('default', ['jshint', 'sass']);
+  grunt.registerTask('deploy', ['uglify']);
   //add 'uglify' on deployment
 };

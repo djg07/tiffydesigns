@@ -36,7 +36,8 @@ body {
     font-family: "Pinyon Script";
     font-size: 5em;
     margin-left: 3%;
-    z-index: 1; }
+    z-index: 1;
+    letter-spacing: .1em; }
   #container .mainHeader-underline {
     height: 1px;
     border: 1px solid black;
