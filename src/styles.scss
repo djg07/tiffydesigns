@@ -29,9 +29,35 @@ body {
 		font-family: $font-stack-content;
 		font-size: 1.2em;
 		line-height:125%;
+		color:black
 
 	}
 }
+
+.container {
+	position:relative;
+	min-height:100vh;
+	min-width:100%;
+	background-color:grey;
+	
+	
+
+	.gridRow {
+		// height:100% !important;
+		line-height:49vh;
+
+		.gridElement {
+			// height:100%;
+			background-color:blue;
+			border: 1px solid white;
+		
+		}	
+	}
+	
+
+}
+
+
 
 #bgContainer {
 	position:relative;
@@ -41,55 +67,55 @@ body {
 	background-size: cover;
 }
 
-#container {
-  position:absolute;
-  margin-left:0;
-  margin-right:0;
-  bottom:10%;
-  //padding-top:28em;
-  //padding-bottom:28em;
-  background-color:rgba(255,255,255,1);
-  height:8em;
-  width:100%;
+// #container {
+//   position:absolute;
+//   margin-left:0;
+//   margin-right:0;
+//   bottom:10%;
+//   //padding-top:28em;
+//   //padding-bottom:28em;
+//   background-color:rgba(255,255,255,1);
+//   height:8em;
+//   width:100%;
 
-  .mainHeader {
-	font-family:$font-main;
-	font-size:5em;
-	margin-left:3%;
-	z-index:1;
-	letter-spacing:.1em;
-  }
-  .mainHeader-underline {
-	height:1px;
-	border: 1px solid black;
-	margin-top:-30px;
-	opacity:.4;
-	z-index:-1;
+//   .mainHeader {
+// 	font-family:$font-main;
+// 	font-size:5em;
+// 	margin-left:3%;
+// 	z-index:1;
+// 	letter-spacing:.1em;
+//   }
+//   .mainHeader-underline {
+// 	height:1px;
+// 	border: 1px solid black;
+// 	margin-top:-30px;
+// 	opacity:.4;
+// 	z-index:-1;
 
-  }
+//   }
 
 
 
-  .nav {
-	margin-right:0;
-  }
+//   .nav {
+// 	margin-right:0;
+//   }
 
-  .menu {
-	font-family: sans-serif;
-	margin-top: 1em;
-	font-weight: 700;
-	text-transform: uppercase;
-	font-size: .85em;
-	letter-spacing: 2px;
-	line-height: 3em;
+//   .menu {
+// 	font-family: sans-serif;
+// 	margin-top: 1em;
+// 	font-weight: 700;
+// 	text-transform: uppercase;
+// 	font-size: .85em;
+// 	letter-spacing: 2px;
+// 	line-height: 3em;
 
-	.table {
-	  width: 100%;
-	  margin-bottom: 20px;
-	}
+// 	.table {
+// 	  width: 100%;
+// 	  margin-bottom: 20px;
+// 	}
 
-  }
-}
+//   }
+// }
 	
 
 

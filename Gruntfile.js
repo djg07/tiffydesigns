@@ -36,12 +36,12 @@ grunt.loadNpmTasks('grunt-contrib-cssmin');
 
       }
     },
-
-
     watch: {
       files: ['<%= jshint.files %>', 'src/**/*.scss'],
       tasks: ['jshint', 'sass'] //add uglify on deployment
-    }
+    },
+
+    
   });
 
   
