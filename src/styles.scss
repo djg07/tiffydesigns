@@ -70,7 +70,7 @@ body {
 
 	.nav {
 		font-family: $font-stack-content;
-		font-size:1.5em;
+		font-size:1.75em;
 		font-weight:400;
 		font-style: italic;
 	}
@@ -78,13 +78,19 @@ body {
 
 	.gridRow {
 		// height:100% !important;
-		line-height:30vh;
+		//eight:30vh;
 
 		.gridElement {
 			// height:100%;
 			padding:0;
 			// border: 1px solid white;
 		
+		}
+
+		.mask {
+			background-color:rgba(255,255,255,.5);
+			width:100%;
+			height:100%;
 		}
 
 		.e1 {
