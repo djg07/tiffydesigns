@@ -13,16 +13,24 @@ body {
     font-weight: 400;
     font-size: 2.5em; }
   body p {
-    font-family: "Roboto", "Open sans", Helvetica;
+    font-family: "Alegreya", "Open sans", Helvetica;
     font-size: 1.2em;
     line-height: 125%;
     color: black; }
+  body ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  body li {
+    display: inline;
+    padding: .5em;
+    margin-top: .25em; }
 
 .container {
   position: relative;
   min-height: 100vh;
   min-width: 100%;
-  background-color: #FFE0E0; }
+  background-color: #edefef; }
   .container .header {
     text-align: center; }
   .container .headerRow {
@@ -31,9 +39,16 @@ body {
     font-size: 3em;
     font-family: "Pinyon Script";
     letter-spacing: 2px;
-    color: white; }
+    color: #282828; }
+  .container .nav {
+    font-family: "Alegreya", "Open sans", Helvetica;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic; }
   .container .gridRow {
-    line-height: 46vh; }
+    line-height: 30vh; }
+    .container .gridRow .gridElement {
+      padding: 0; }
     .container .gridRow .e1 {
       background: url("../images/introBG.jpg") no-repeat center center fixed;
       width: 100%;

@@ -1,6 +1,6 @@
 //@import url("../node_modules/font-awesome/scss/font-awesome.scss");
 
-$font-stack-content: "Roboto", "Open sans", Helvetica;///
+$font-stack-content: "Alegreya","Open sans", Helvetica;///
 $font-main: "Pinyon Script";
 $font-subheading: "Tangerine";
 //$primary-color: #FFF;
@@ -32,16 +32,29 @@ body {
 		color:black
 
 	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline;
+		padding:.5em;
+		margin-top:.25em;
+	}
 }
 
 .container {
 	position:relative;
 	min-height:100vh;
 	min-width:100%;
-	background-color:#FFE0E0;
+	background-color:#edefef;
 	
 	.header {
 		text-align:center;
+		
 	}
 
 	.headerRow {
@@ -52,17 +65,24 @@ body {
 		font-size:3em;
 		font-family: $font-main;
 		letter-spacing:2px;
-		color:white;
+		color:#282828;
+	}
+
+	.nav {
+		font-family: $font-stack-content;
+		font-size:1.5em;
+		font-weight:400;
+		font-style: italic;
 	}
 	
 
 	.gridRow {
 		// height:100% !important;
-		line-height:46vh;
+		line-height:30vh;
 
 		.gridElement {
 			// height:100%;
-			
+			padding:0;
 			// border: 1px solid white;
 		
 		}
