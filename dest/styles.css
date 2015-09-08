@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Playfair;
+  src: url(../assets/PlayfairDisplaySC-Regular.ttf); }
+@font-face {
+  font-family: Futura;
+  src: url(../assets/FuturaLT_0.ttf); }
 body {
   overflow-y: auto;
   margin: 0 0; }
@@ -21,44 +27,120 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0; }
-  body li {
-    display: inline;
-    padding: .5em;
-    margin-top: .25em; }
+  body a:hover {
+    text-decoration: none;
+    color: #AB7878; }
+  body a {
+    color: #9a9a9a; }
+
+.navLI {
+  display: inline;
+  padding: .5em;
+  margin-top: 1em;
+  font-family: PlayfairDisplaySC-Regular;
+  font-style: normal;
+  letter-spacing: .10em;
+  border-left: 2px solid #9a9a9a; }
+
+.navLI:hover {
+  border-color: #AB7878; }
 
 .container {
-  position: relative;
-  min-height: 100vh;
   min-width: 100%;
-  background-color: #edefef; }
-  .container .header {
-    text-align: center; }
-  .container .headerRow {
-    height: 5em; }
-  .container .logo {
-    font-size: 3em;
-    font-family: "Pinyon Script";
-    letter-spacing: 2px;
-    color: #282828; }
+  margin: 0;
+  padding: 0; }
   .container .nav {
     font-family: "Alegreya", "Open sans", Helvetica;
     font-size: 1.75em;
     font-weight: 400;
-    font-style: italic; }
-  .container .gridRow .gridElement {
-    padding: 0; }
-  .container .gridRow .mask {
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    height: 100%; }
-  .container .gridRow .e1 {
-    width: 100%; }
+    font-style: italic;
+    background-color: #ffffff; }
+  .container .iconStripUL {
+    padding: 2em;
+    text-align: center; }
+    .container .iconStripUL .iconStripLI {
+      display: inline;
+      padding: 1em; }
+    .container .iconStripUL .icons {
+      font-size: 1.75em;
+      color: #9a9a9a; }
+    .container .iconStripUL .icons:hover {
+      color: #AB7878; }
 
 #BGContainer {
   position: relative;
   min-height: 100vh;
   min-width: 100%;
-  background: url("../images/introBG_4.jpg") no-repeat center center fixed;
+  background: url("../assets/images/introBG_4.jpg") no-repeat center center fixed;
   background-size: cover; }
+
+.main-bottom-row {
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffff;
+  height: 8em;
+  min-width: 100vw;
+  margin: 0; }
+
+#main-content-grid {
+  margin-top: 5em;
+  position: relative;
+  height: 80vh;
+  width: 60%;
+  margin: 0 auto; }
+
+#heroMsg {
+  height: 15em; }
+
+.heroMsgContent1 {
+  font-family: Futura;
+  font-size: 3em;
+  font-color: black;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto; }
+
+.heroMsgContent2 {
+  font-family: Playfair;
+  font-size: 2.5em;
+  font-color: black;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto; }
+
+#border-top {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  border-color: #F1B885;
+  border-top: 1px solid #F1B885;
+  border-left: 1px solid #F1B885;
+  border-right: 1px solid #F1B885; }
+
+.grid-centered {
+  margin: 0 auto; }
+
+.grid-about-me {
+  margin-top: 1em;
+  padding: 1em;
+  height: 10em;
+  background-color: #F1B885; }
+
+.grid-about-me-picture {
+  margin-top: 1em;
+  height: 5em;
+  border: 1px solid red; }
+
+/* centered columns styles */
+.row-centered {
+  text-align: center; }
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px; }
 
 /*# sourceMappingURL=styles.css.map */

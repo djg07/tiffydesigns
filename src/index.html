@@ -27,33 +27,54 @@
 </head>
 
 <body>
-<div class="container">
+<div class="container" style="position:relative;">
 
 
 <div id="BGContainer">
 
-    <div id="container">
+    <div id="container" style="height:10em;">
         <div class="row nav">
+            <div class="col-sm-4"></div>
 
-            <div class="col-sm-4 col-sm-push-4" style="text-align:center"><p>Temp1</p></div>
-            <div class="col-sm-4 col-sm-pull-4"><p>Temp2</p></div>
+            <div class="col-sm-4" style="height:4.5em; text-align:center;">
+              <img src="../assets/Logo.png" style="height:100%;">
+            </div>
+            <!-- <div class="col-sm-4 col-sm-pull-4"><p>Temp2</p></div> -->
 
-            <div class="col-sm- menu" style="text-align:right;">
+            <div class="col-sm-4" style="text-align:center;">
                 <div>
-                <span class="nav-link">Home</span>
-                <span class="nav-link">About</span>
-                <span class="nav-link">Shop</span>
+                  <ul style="margin-top:1em;">
+                    <div style="display:inline-block;">
+                    <li class="navLI"><a href="#">HOME</a></li>
+                    <li class="navLI"><a href="#">ABOUT</a></li>
+                    <li class="navLI"><a href="#">SHOP</a></li>
+                    </div>
+                  </ul>
                 </div>
             </div>
         </div>
 
+      <div class="row main-bottom-row">
+      <div class="col-sm-12">
+        <ul class="iconStripUL">
+          <li class="iconStripLI">
+            <a href="#"><i class="fa fa-facebook-square icons"></i></a>
+          </li>
+          <li class="iconStripLI">
+            <a href="#"><i class="fa fa-twitter-square icons"></i></a>
+          </li>
+          <li class="iconStripLI">
+            <a href="#"><i class="fa fa-instagram icons"></i></a>
+          </li>
+          <li class="iconStripLI">
+            <a href="#"><i class="fa fa-pinterest icons"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>   
+
     </div>
-        <div class="row" style="margin-left:0px;">
-            <div class="mainHeader">TiffyDesigns
-                
-                <div class="mainHeader-underline"></div>
-            </div>
-        </div>
+    
   </div>
   <!-- <div class="stuff"> -->
       <!--<i class="fa fa-camera-retro fa-4x"></i> fa-4x-->
@@ -62,6 +83,32 @@
       <!--<h3>Lorem Ipsum Dolor Mava </h3>-->
 
   <!-- </div> -->
+
+
+  <div id="main-content-grid">
+    <div id="heroMsg">
+        <div class="heroMsgContent1">TiffyDesigns produces handmade jewellery and accessories </div>
+        <div class="heroMsgContent2">LETS MAKE SOMETHING BEAUTIFUL.</div>
+    </div>
+
+    <div id="border-top">
+      <div class="row" style="margin-left:0px; margin-right:0px;">
+        <div class="col-sm-3 grid-centered" style="background-color: #ffffff"></div>
+
+        <div class="col-sm-3 grid-centered grid-about-me">
+          Lorem Ipsum Dolor  
+          sit amet, consectetur 
+          adipiscing elit, 
+          sed do eiusmod tempor 
+          incididunt 
+          ut labore et dolore
+        </div>
+        <div class="col-sm-6 grid-centered grid-about-me-picture">Lorem Ipsum</div>
+      </div>
+    </div>
+
+  </div>
+
 </div>
 
 
