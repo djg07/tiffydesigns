@@ -42,7 +42,7 @@ body {
 
 	p {
 		font-family: $font-stack-content;
-		font-size: 1.2em;
+		//font-size: 1.2em;
 		line-height:125%;
 		color:black
 
@@ -194,36 +194,104 @@ $onepxsolid: 1px solid $grid-orange;
 }
 
 .grid-about-me {
-	margin-top:1em;
+	//margin-top:1em;
 	padding:1em;
-	height:10em;
+	height:15em;
 	background-color: $grid-orange;
 }
 
 .grid-about-me-picture {
-	margin-top:1em;
-	height:5em;
-	border: 1px solid red;
+	//margin-top:1em;
+	height:15em;
+	//border: 1px solid red;
+  	background:url("../assets/images/tiffany.jpg") no-repeat center ;
+  	background-size: contain;
 }
 
 
-
-
-
-/* centered columns styles */
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
+/* Lets Make something beautiful section */
+@media (max-width: 480px) {
+  .heroMsgContent1, .heroMsgContent2 {
+	font-size:14px;
+  }
 }
 
-	
+@media (min-width: 481px) and (max-width: 767px) {
+  .heroMsgContent1, .heroMsgContent2 {
+	font-size:20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .heroMsgContent1, .heroMsgContent2 {
+	font-size:26px;
+  }
+}
+
+@media (min-width: 980px) {
+  .heroMsgContent1, .heroMsgContent2 {
+	font-size:30px;
+  }
+}
+
+
+/* Nav headers */
+@media (max-width: 480px) {
+  .navLI, .navContainer {
+	font-size:14px;
+	text-align:center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navLI, .navContainer {
+	font-size:20px;
+	text-align:center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .navLI, .navContainer {
+	font-size:22px;
+	text-align:right;
+  }
+}
+
+@media (min-width: 980px) {
+  .navLI, .navContainer {
+	font-size:26px;
+	text-align:right;
+  }
+}
+
+/* General */
+@media (max-width: 480px) {
+  p {
+	font-size:10px;
+	text-align:center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  p {
+	font-size:13px;
+	text-align:center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  p {
+	font-size:16px;
+	text-align:center;
+  }
+}
+
+@media (min-width: 980px) {
+  p {
+	font-size:18px;
+	text-align:center;
+  }
+}
 
 
 
