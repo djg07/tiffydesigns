@@ -85,8 +85,8 @@ body {
   margin-top: 5em;
   position: relative;
   height: 80vh;
-  width: 60%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 980px; }
 
 #heroMsg {
   height: 15em; }
