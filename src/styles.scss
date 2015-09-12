@@ -10,6 +10,11 @@
 	src: url(../assets/FuturaLT_0.ttf);
 }
 
+@font-face {
+  font-family: Futura-Oblique;
+  src: url(../assets/FuturaLT-Oblique_0.ttf);
+}
+
 
 $font-stack-content: "Alegreya","Open sans", Helvetica;///
 $font-main: "Pinyon Script";
@@ -17,7 +22,10 @@ $font-subheading: "Tangerine";
 
 $text-grey: #9a9a9a;
 $hover: #AB7878;
-$grid-orange: #F1B885;
+
+
+$primary-yellow: #F1CC85;
+$primary-rose: #F1B885;
 
 
 body {
@@ -43,7 +51,7 @@ body {
 	p {
 		font-family: $font-stack-content;
 		//font-size: 1.2em;
-		line-height:125%;
+		line-height:175%;
 		color:black
 
 	}
@@ -140,11 +148,11 @@ body {
 	
 }
 
-$onepxsolid: 1px solid $grid-orange;
+$onepxsolid: 1px solid $primary-rose;
 #main-content-grid {
 	margin-top:5em;
 	position:relative;
-	height:80vh;
+	//height:80vh;
 	 //background-color:pink;
 	margin: 0 auto;
   	max-width: 980px;
@@ -157,14 +165,13 @@ $onepxsolid: 1px solid $grid-orange;
 
 #heroMsg {
 	// background-color: #ffffff;
-	height:15em;
+	padding-bottom:3em;
 }
 
 .heroMsgContent1 {
 	font-family:Futura;
 	font-size: 3em;
 	font-color:black;
-	width:60%;
 	text-align:center;
 	margin: 0 auto;
 }
@@ -173,20 +180,33 @@ $onepxsolid: 1px solid $grid-orange;
 	font-family:Playfair;
 	font-size: 2.5em;
 	font-color:black;
-	width:70%;
 	text-align:center;
 	margin: 0 auto;
+}
+
+.heroMsgContent3 {
+  font-family:"Playfair Display";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.5em;
+  font-color:black;
+  width:70%;
+  text-align:center;
+  margin: 0 auto;
+  color: $primary-yellow;
 }
 
 
 #border-top {
 	margin: 0 auto;
+  	padding:1em;
 	width:100%;
 	height:100%;
-	border-color: $grid-orange;
+	border-color: $primary-rose;
 	border-top: $onepxsolid;
 	border-left: $onepxsolid;
-	border-right: $onepxsolid;
+    border-right: $onepxsolid;
+    border-bottom: $onepxsolid;
 }
 
 .grid-centered {
@@ -197,7 +217,7 @@ $onepxsolid: 1px solid $grid-orange;
 	//margin-top:1em;
 	padding:1em;
 	height:15em;
-	background-color: $grid-orange;
+	background-color: $primary-rose;
 }
 
 .grid-about-me-picture {
@@ -211,25 +231,25 @@ $onepxsolid: 1px solid $grid-orange;
 
 /* Lets Make something beautiful section */
 @media (max-width: 480px) {
-  .heroMsgContent1, .heroMsgContent2 {
+  .heroMsgContent1, .heroMsgContent2, .heroMsgContent3 {
 	font-size:14px;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .heroMsgContent1, .heroMsgContent2 {
+  .heroMsgContent1, .heroMsgContent2, .heroMsgContent3 {
 	font-size:20px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .heroMsgContent1, .heroMsgContent2 {
+  .heroMsgContent1, .heroMsgContent2, .heroMsgContent3 {
 	font-size:26px;
   }
 }
 
 @media (min-width: 980px) {
-  .heroMsgContent1, .heroMsgContent2 {
+  .heroMsgContent1, .heroMsgContent2, .heroMsgContent3 {
 	font-size:30px;
   }
 }
