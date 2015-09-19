@@ -40,7 +40,7 @@
             <div class="row nav">
                 <div class="col-sm-4"></div>
 
-                <div class="col-sm-4" style="height:4.5em; text-align:center;">
+                <div class="col-sm-4" style="height:4.5em; text-align:center;margin-top:.5em;">
                     <img src="../assets/Logo.png" style="height:100%;">
                 </div>
                 <!-- <div class="col-sm-4 col-sm-pull-4"><p>Temp2</p></div> -->
@@ -50,7 +50,7 @@
                         <ul style="margin-top:1em;">
                             <div style="display:inline-block;">
                                 <li class="navLI"><a href="#">HOME</a></li>
-                                <li class="navLI"><a href="#">ABOUT</a></li>
+                                <!--<li class="navLI"><a href="#">ABOUT</a></li>-->
                                 <li class="navLI"><a href="#">SHOP</a></li>
                             </div>
                         </ul>
@@ -62,16 +62,16 @@
                 <div class="col-sm-12">
                     <ul class="iconStripUL">
                         <li class="iconStripLI">
-                            <a href="#"><i class="fa fa-facebook-square icons"></i></a>
+                            <a href="https://www.facebook.com/TiffyDesigns-279092452137718/" target="_blank"><i class="fa fa-facebook-square icons"></i></a>
                         </li>
                         <li class="iconStripLI">
-                            <a href="#"><i class="fa fa-twitter-square icons"></i></a>
+                            <a href="https://twitter.com/tiffydesigns" target="_blank"><i class="fa fa-twitter-square icons"></i></a>
                         </li>
                         <li class="iconStripLI">
-                            <a href="#"><i class="fa fa-instagram icons"></i></a>
+                            <a href="https://instagram.com/tiffydesigns/" target="_blank"><i class="fa fa-instagram icons"></i></a>
                         </li>
                         <li class="iconStripLI">
-                            <a href="#"><i class="fa fa-pinterest icons"></i></a>
+                            <a href="https://www.pinterest.com/tiffydesigns/tiffydesigns-jewelry/" target="_blank"><i class="fa fa-pinterest icons"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -123,6 +123,10 @@
             <div class="row" style="margin-left:0px; margin-right:0px; height:22em; padding-top:1.5em;">
                 <div class="col-sm-6">
                     <img src="../assets/images/6.jpg" class="img-responsive" style="margin:0; padding:0;">
+                    <div class="description-container">
+                        <p class="description">Beautiful Stuff Handmade Wedding piece made form swarovski jewellery</p>
+
+                    </div>
                 </div>
 
                 <div class="col-sm-6">
@@ -153,20 +157,20 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" style="max-width:496px; margin:0 auto;padding:1em;">
 
-                    <form action="#" method="POST" style="text-align:center;">
-                        <div class="col-sm-12 col-xs-12">
-                            <input type="text" name="name" placeholder="Your name" class="form-name">
+                    <form role="form" action="#" method="POST" style="text-align:center;">
+                        <div class="col-sm-12 col-xs-12 form-group">
+                            <input type="text" name="name" placeholder="Your name" class="form-name form-control">
+                        </div>
+                        <div class="col-sm-12 col-xs-12 form-group">
+                            <input type="text" name="email" placeholder="Your email" class="form-email form-control">
+                        </div>
+                        <div class="col-sm-12 col-xs-12 form-group">
+                            <textarea type="text" name="msg" placeholder="Your message" class="form-msg form-control"></textarea>
                         </div>
                         <div class="col-sm-12 col-xs-12">
-                            <input type="text" name="email" placeholder="Your email" class="form-email">
-                        </div>
-                        <div class="col-sm-12 col-xs-12">
-                            <input type="text" name="msg" placeholder="Your message" class="form-msg">
-                        </div>
-                        <div class="col-sm-12 col-xs-12">
-                            <input type="submit" name="submit" placeholder="Submit your message" class="form-submit">
+                            <input type="submit" name="submit" placeholder="Submit your message" class="form-submit btn btn-default">
                         </div>
 
                     </form>

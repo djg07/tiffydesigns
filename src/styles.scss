@@ -25,7 +25,7 @@ $hover: #AB7878;
 
 
 $primary-yellow: #F1CC85;
-$primary-rose: #F1B885;
+$primary-rose: #F2C8FF;
 
 
 body {
@@ -312,6 +312,23 @@ $onepxsolid: 1px solid $primary-rose;
 	text-align:center;
   }
 }
+
+
+.description {
+
+
+
+}
+
+.description-container {
+  margin-top:-62px;
+  position:absolute;
+  bottom:0;
+  width:90%;
+  background-color:lightsteelblue;
+  z-index:20000;
+}
+
 
 
 

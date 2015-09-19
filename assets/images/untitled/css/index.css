@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.container {
+  float: left;
+  width: 100%;
+  height: 1225px;
+  background-image: url('../images/IntroBG_4.jpg');
+  background-size: cover;
+  background-position: center center;
+}
