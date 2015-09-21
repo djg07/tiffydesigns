@@ -1,5 +1,8 @@
 //@import url("../node_modules/font-awesome/scss/font-awesome.scss");
 
+//Bridal, Boho Chic, Everyday
+
+
 @font-face {
     font-family: Playfair;
     src: url(../assets/PlayfairDisplaySC-Regular.ttf);
@@ -24,8 +27,8 @@ $text-grey: #9a9a9a;
 $hover: #AB7878;
 
 
-$primary-yellow: #F1CC85;
-$primary-rose: #F2C8FF;
+$primary-yellow: #CD9B1B;
+$primary-rose: #FFDFE9;
 
 
 body {
@@ -67,8 +70,16 @@ body {
 	  color:$hover;
 	}
 
+  	a:focus {
+	  text-decoration:none;
+	  color:$hover;
+	  background-color:#F9F9F9;
+
+	}
+
 	a { 
-		color: $text-grey; 
+		color: $text-grey;
+	  	padding:.5em;
 	} 
 
 
@@ -77,13 +88,14 @@ body {
 
 .navLI {
 		display: inline;
-		padding:.5em;
+		padding:.1em;
 		margin-top:1em;
 		font-family: PlayfairDisplaySC-Regular;
 		font-style: normal;
 		letter-spacing: .10em;
-		border-left: 2px solid $text-grey;
+		//border-left: 2px solid $text-grey;
 		// border-right: 1px solid $text-grey;
+
 
 	}
 
@@ -120,7 +132,7 @@ body {
 		}
 
 		.icons {
-			font-size:1.75em;
+			//font-size:1.75em;
 			color:$text-grey;
 		}
 
@@ -148,7 +160,7 @@ body {
 	
 }
 
-$onepxsolid: 1px solid $primary-rose;
+$onepxsolid: 1px solid $primary-yellow;
 #main-content-grid {
 	margin-top:5em;
 	position:relative;
@@ -202,7 +214,7 @@ $onepxsolid: 1px solid $primary-rose;
   	padding:1em;
 	width:100%;
 	height:100%;
-	border-color: $primary-rose;
+	border-color: $primary-yellow;
 	border-top: $onepxsolid;
 	border-left: $onepxsolid;
     border-right: $onepxsolid;
@@ -258,31 +270,60 @@ $onepxsolid: 1px solid $primary-rose;
 /* Nav headers */
 @media (max-width: 480px) {
   .navLI, .navContainer {
-	font-size:14px;
+	font-size:12px;
 	text-align:center;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
   .navLI, .navContainer {
-	font-size:20px;
+	font-size:16px;
 	text-align:center;
   }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
   .navLI, .navContainer {
-	font-size:22px;
+	font-size:16px;
 	text-align:right;
   }
 }
 
 @media (min-width: 980px) {
   .navLI, .navContainer {
-	font-size:26px;
+	font-size:18px;
 	text-align:right;
   }
 }
+
+/* Icon Strip */
+@media (max-width: 480px) {
+  .container .iconStripUL .icons {
+    font-size:16px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container .iconStripUL .icons {
+    font-size:20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .container .iconStripUL .icons {
+    font-size:22px;
+  }
+}
+
+@media (min-width: 980px) {
+  .container .iconStripUL .icons {
+    font-size:26px;
+  }
+}
+
+
+
+
 
 /* General */
 @media (max-width: 480px) {
@@ -315,13 +356,14 @@ $onepxsolid: 1px solid $primary-rose;
 
 
 .description {
-
+	opacity:1;
 
 
 }
 
 .description-container {
   margin-top:-62px;
+  opacity:.5;
   position:absolute;
   bottom:0;
   width:90%;
@@ -330,5 +372,65 @@ $onepxsolid: 1px solid $primary-rose;
 }
 
 
+.ddlUL {
+  position:absolute;
+  display:none;
+  cursor:default;
 
+}
+
+.ddlLI {
+  padding:.1em;
+  font-family: PlayfairDisplaySC-Regular;
+  font-style: normal;
+  letter-spacing: .10em;
+  color:$text-grey;
+  text-align:center;
+  background-color:#F9F9F9;
+}
+
+.ddlLI:hover {
+  // color:$hover;
+  color:$hover;
+
+}
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .ddlUL {
+	width:107px;
+	margin-left:59px;
+
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .ddlUL {
+	width:143px;
+	margin-left:75px;
+
+  }
+}
+
+@media (min-width: 770px) and (max-width: 979px) {
+  .ddlUL {
+	width:143px;
+	right:15px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1099px) {
+  .ddlUL {
+	width:161px;
+	right:15px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .ddlUL {
+	width:161px;
+	right:96px;
+  }
+}
 
