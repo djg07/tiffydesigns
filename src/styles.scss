@@ -85,6 +85,10 @@ body {
 
 }
 
+.activeHeader {
+  background-color:#F9F9F9;
+}
+
 
 .navLI {
 		display: inline;
@@ -110,7 +114,7 @@ body {
 	min-width:100%;
 	// background-color:#edefef;
 	margin:0;
-	padding:0;
+	padding:5em;
 	
 
 
@@ -377,6 +381,7 @@ $onepxsolid: 1px solid $primary-yellow;
   display:none;
   cursor:default;
 
+
 }
 
 .ddlLI {
@@ -434,3 +439,7 @@ $onepxsolid: 1px solid $primary-yellow;
   }
 }
 
+.img-lg {
+  height:500px;
+  padding:1em;
+}

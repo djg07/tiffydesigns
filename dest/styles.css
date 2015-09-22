@@ -40,6 +40,9 @@ body {
     color: #9a9a9a;
     padding: .5em; }
 
+.activeHeader {
+  background-color: #F9F9F9; }
+
 .navLI {
   display: inline;
   padding: .1em;
@@ -54,7 +57,7 @@ body {
 .container {
   min-width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 5em; }
   .container .nav {
     font-family: "Alegreya", "Open sans", Helvetica;
     font-size: 1.75em;
@@ -254,5 +257,8 @@ body {
   .ddlUL {
     width: 161px;
     right: 96px; } }
+.img-lg {
+  height: 500px;
+  padding: 1em; }
 
 /*# sourceMappingURL=styles.css.map */
