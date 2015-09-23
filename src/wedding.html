@@ -24,6 +24,8 @@
     <!-- BOOTSTRAP -->
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
+    <!--Lightbox -->
+    <link href="../lightbox/css/lightbox.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -99,17 +101,23 @@
         <div id="border-top" style="padding:1em;">
            <div class="row">
                <div class="col-sm-8 col-xs-12">
-                   <img class="img-responsive img-lg" src="..\assets\images\bridal\Bridal_L_1.jpg">
+                   <a href="..\assets\images\bridal\Bridal_L_1.jpg" data-lightbox="image-1" data-title="My caption">
+                       <img class="img-responsive img-lg" src="..\assets\images\bridal\Bridal_L_1.jpg">
+                   </a>
                </div>
                <div class="col-sm-4">
                    <div class="row">
                        <div class="col-sm-12">
-                           <img class="img-responsive img-sm" src="..\assets\images\bridal\Bridal_SM_1.jpg" style="height:225px; margin:0 auto; padding:1em;">
+                           <a href="..\assets\images\bridal\Bridal_SM_1.jpg" data-lightbox="image-2" data-title="My caption">
+                                <img class="img-responsive img-sm" src="..\assets\images\bridal\Bridal_SM_1.jpg" style="height:210px; margin:0 auto; padding:1em;">
+                           </a>
                        </div>
                    </div>
                    <div class="row">
                        <div class="col-sm-12">
-                           <img class="img-responsive img-sm" src="..\assets\images\bridal\Bridal_SM_2.jpg" style="height:225px; margin:0 auto; margin-top:50px; padding:1em;">
+                           <a href="..\assets\images\bridal\Bridal_SM_2.jpg" data-lightbox="image-3" data-title="My caption">
+                                <img class="img-responsive img-sm" src="..\assets\images\bridal\Bridal_SM_2.jpg" style="height:210px; margin:0 auto; margin-top:50px; padding:1em;">
+                           </a>
                        </div>
                    </div>
                </div>
@@ -136,7 +144,7 @@
     <!-- Backbone -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.2/backbone-min.js"></script>
-
+    <script src="../lightbox/js/lightbox.js"></script>
     <!-- SRC -->
     <script src="scripts.js"></script>
 
