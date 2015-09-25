@@ -111,10 +111,11 @@ body {
 .container {
 	// position:relative;
 	// min-height:100vh;
+  	height:100%;
 	min-width:100%;
 	// background-color:#edefef;
 	margin:0;
-	padding:5em;
+	padding:0;
 	
 
 
@@ -168,7 +169,7 @@ $onepxsolid: 1px solid $primary-yellow;
 #main-content-grid {
 	margin-top:5em;
 	position:relative;
-	//height:80vh;
+	height:100%;
 	 //background-color:pink;
 	margin: 0 auto;
   	max-width: 980px;
@@ -218,6 +219,7 @@ $onepxsolid: 1px solid $primary-yellow;
   	padding:1em;
 	width:100%;
 	height:100%;
+  	margin-bottom:2.5em;
 	border-color: $primary-yellow;
 	border-top: $onepxsolid;
 	border-left: $onepxsolid;
