@@ -1,12 +1,13 @@
 <!doctype html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
-  
+
     <title>Tiffy Designs</title>
- 
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="TiffyDesigns">
+
     <link rel="stylesheet" href="../dest/styles.css">
 
     <!-- FONTS -->
@@ -17,8 +18,9 @@
     <link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic,900,900italic'
           rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- BOOTSTRAP -->
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
@@ -30,13 +32,19 @@
 
 <body>
 <div class="container" style="position:relative; margin-left:.1em;">
+
+
     <div id="BGContainer">
+
         <div id="container" style="height:10em;">
             <div class="row nav">
                 <div class="col-sm-4"></div>
+
                 <div class="col-sm-4" style="height:4.5em; text-align:center;margin-top:.5em;">
                     <img src="../assets/Logo.png" style="height:90%;">
                 </div>
+                <!-- <div class="col-sm-4 col-sm-pull-4"><p>Temp2</p></div> -->
+
                 <div class="col-sm-4">
                     <div class="navContainer">
                         <ul style="margin-top:1em;">
@@ -56,6 +64,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="row main-bottom-row">
                 <div class="col-sm-12">
                     <ul class="iconStripUL">
@@ -74,19 +83,36 @@
                     </ul>
                 </div>
             </div>
+
         </div>
+
     </div>
+    <!-- <div class="stuff"> -->
+    <!--<i class="fa fa-camera-retro fa-4x"></i> fa-4x-->
+    <!--<h1>Lorem Ipsum Dolor Mava </h1>-->
+    <!--<h2>Lorem Ipsum Dolor Mava </h2>-->
+    <!--<h3>Lorem Ipsum Dolor Mava </h3>-->
+
+    <!-- </div> -->
+
+
     <div id="main-content-grid">
         <div id="heroMsg">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="heroMsgContent1">TiffyDesigns produces handmade jewellery and accessories</div>
                     <div class="heroMsgContent2">LETS MAKE SOMETHING BEAUTIFUL.</div>
+
+
                 </div>
+
             </div>
         </div>
+
         <div id="border-top" style="padding:1em;">
             <div class="row" style="margin-left:0px; margin-right:0px;">
+
+
                 <div class="col-sm-8  grid-about-me">
                     <p>TiffyDesigns produces professional quality hand made jewellery for
                     an affordable price. Tiffany specializes in bracelets, headpieces, and necklaces.
@@ -94,21 +120,55 @@
                 </div>
                 <div class="col-sm-4 grid-about-me-picture"></div>
             </div>
+
             <div class="row" style="margin-left:0px; margin-right:0px;padding-top:1em;">
                 <div id="featuredWorkHeroMsg">
                     <div class="heroMsgContent3">Tiffany's Recent Work</div>
                 </div>
             </div>
+
             <div class="row" style="margin-left:0px; margin-right:0px;padding-top:1.5em;">
                 <div id="instafeed" class="col-sm-12" style="text-align:center;"></div>
+
+                <!--<div class="col-sm-6">-->
+                    <!--<img src="../assets/images/6.jpg" class="img-responsive" style="margin:0; padding:0;">-->
+                    <!--<div class="description-container">-->
+                        <!--<p class="description">Beautiful Stuff Handmade Wedding piece made form swarovski jewellery</p>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--<div class="col-sm-6">-->
+                    <!--<div class="row" style="; padding-top:1em;">-->
+                        <!--<div class="col-sm-6 col-xs-6">-->
+                            <!--<img src="../assets/images/3.jpg" class="img-responsive" style="margin:0; padding:0; max-height:130px; margin: 0 auto;">-->
+                        <!--</div>-->
+                        <!--<div class="col-sm-6 col-xs-6">-->
+                            <!--<img src="../assets/images/4.jpg" class="img-responsive" style="margin:0; padding:0; max-height:130px; margin: 0 auto;">-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="row" style="; padding-top:1em;">-->
+                        <!--<div class="col-sm-6 col-xs-6">-->
+                            <!--<img src="../assets/images/1.jpg" class="img-responsive" style="margin:0; padding:0; max-height:130px; margin: 0 auto;">-->
+                        <!--</div>-->
+                        <!--<div class="col-sm-6 col-xs-6">-->
+                            <!--<img src="../assets/images/2.jpg" class="img-responsive" style="margin:0; padding:0; max-height:130px; margin: 0 auto;">-->
+                        <!--</div>-->
+
+                    <!--</div>-->
+
+                    <!--</div>-->
+
             </div>
+
             <div class="row">
                 <div class="col-sm-12 col-xs-12 heroMsgContent2" style="padding-top:1em;">
                     TiffyDesigns takes custom orders
                 </div>
             </div>
-	    <!-- Form Row -->
+
             <div class="row" style="max-width:496px; margin:0 auto;padding:1em;">
+
                     <form role="form" action="#" method="POST" style="text-align:center;">
                         <div class="col-sm-12 col-xs-12 form-group">
                             <input type="text" name="name" placeholder="Your name" class="form-name form-control">
@@ -121,18 +181,39 @@
                         </div>
                         <div class="col-sm-12 col-xs-12">
                             <input type="submit" name="submit" placeholder="Submit your message" class="form-submit btn btn-default">
+                        </div>
+
                     </form>
+
             </div>
+
         </div>
+
+
+
         </div>
+
     </div>
-    
+
+
+    <!-- <div class="mask"> -->
+    <!-- <img src="../images/introBG.jpg" id="BGContainer" > -->
+    <!-- <img id="BG"></div> -->
+    <!-- <img id="BG" class="img-responsive" src="../images/introBG.jpg"></div> -->
+    <!-- </img> -->
+    <!-- </div> -->
+
+
+    <!--<p>Lorem ipsum dolor sit amet, condimentum nec enim id maecenas fermentum, erat nullam ut leo lobortis, convallis non vulputate libero risus nec, in orci dolor. Ac ut hendrerit. Suscipit purus ac libero nulla, cras ut luctus integer vitae ipsum officiis, commodo ante adipiscing turpis ac, aenean justo. In amet eu quis dui lacus accumsan. Fusce accumsan, in in mattis fusce integer in nullam, a suscipit dapibus, porttitor mauris dapibus hendrerit mauris taciti. Sodales aenean ipsum, amet massa diam pellentesque, erat risus dis velit. Suscipit aliquam et, justo felis in maecenas neque diam, quia torquent. Pharetra suspendisse libero ullamcorper placerat a, in sodales consectetuer, neque wisi lacus suspendisse praesent neque, dictum commodo mauris. Viverra ut atque phasellus tristique leo wisi, metus sit sollicitudin est magna eget, bibendum ut, convallis odio bibendum amet, libero donec pellentesque et. Volutpat platea velit vestibulum in lorem, dui neque eleifend luctus wisi consectetuer.</p>-->
+
+
     <!-- Backbone -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.2/backbone-min.js"></script>
 
     <!-- SRC -->
     <script src="instafeed.min.js"></script>
+
     <script src="scripts.js"></script>
 
 </body>
